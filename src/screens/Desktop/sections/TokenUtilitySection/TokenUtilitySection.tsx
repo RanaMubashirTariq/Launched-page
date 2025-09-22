@@ -2,8 +2,8 @@ import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 import groupE from "../../../../../Public/group.svg"
 import vectorA from "../../../../../Public/vector-1.svg"
-import vector from "../../../../../public/vector.svg"
-import vectorC from "../../../../../public/-x30-6.svg"
+import vector from "../../../../../Public/vector.svg"
+import vectorC from "../../../../../Public/-x30-6.svg"
 
 export const TokenUtilitySection = (): JSX.Element => {
   // Define card data for mapping
