@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "../../../../components/ui/card";
 import lineC from "../../../../../public/line-2.svg"
-import linet from "../../../../../Public/line-2.svg"
+// import linet from "../../../../../Public/line-2.svg"
 import check from "../../../../../public/fi-4325445.svg"
 import checkt from "../../../../../public/fi-4315445.svg"
 export const CallToActionSection = (): JSX.Element => {
@@ -67,7 +67,7 @@ export const CallToActionSection = (): JSX.Element => {
           <img
             className="w-[343px] h-px object-cover mt-3 max-[680px]:w-[200px]"
             alt="Line"
-            src={linet}
+            src={lineC}
           />
         </CardHeader>
         <CardContent className="px-[37px] py-4 max-[680px]:px-[20px]">
