@@ -12,7 +12,7 @@ import './DesktopStars.css';
 import frame from "../../../Public/frame.svg"
 import freepik from "../../../Public/freepik--background--35766-1.png"
 import group from "../../../Public/group-5-1.svg"  
-import line from "../../../Public/line-2.svg" 
+import lineA from "../../../Public/line-2.svg" 
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -275,7 +275,7 @@ export const Desktop = (): JSX.Element => {
           <img
             className="w-full h-[3px] object-cover"
             alt="Line"
-                  src={line}
+                  src={lineA}
           />
           <div className="flex w-full items-end justify-center px-[349px] pt-4 pb-[32px]   max-[1300px]:px-[100px] max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[20px]">
             <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-lg tracking-[0] leading-[27px] whitespace-nowrap max-[480px]:text-[12px] ">
