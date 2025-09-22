@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "../../../../components/ui/card";
 import lineC from "../../../../../public/lineB.svg"
-// import linet from "../../../../../Public/lineB.svg"
+import circle from "../../../../../Public/circle.svg"
 import check from "../../../../../public/fi-4325445.svg"
 import checkt from "../../../../../public/fi-4315445.svg"
 export const CallToActionSection = (): JSX.Element => {
@@ -52,7 +52,7 @@ export const CallToActionSection = (): JSX.Element => {
             </div>
 
             <div className="relative w-[180.65px] h-[180.65px] max-[680px]:w-[100px] max-[680px]:h-[100px]">
-                <img src="/circle.svg" className="w-full h-full" alt="" />
+                <img src={circle} className="w-full h-full" alt="" />
             </div>
           </div>
         </CardContent>

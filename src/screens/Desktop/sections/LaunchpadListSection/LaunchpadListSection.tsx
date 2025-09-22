@@ -1,8 +1,8 @@
 import React from "react";
 import svgE from "../../../../../public/imgE.svg"
-import svgA from "../../../../../public/imgA.svg"
+import svgA from "../../../../../Public/img.svg"
 import svgB from "../../../../../public/imgB.svg"
-import svgC from "../../../../../public/img-C.svg"
+import svgC from "../../../../../public/imgC.svg"
 import svgD from "../../../../../public/imgD.svg"
 
 export const LaunchpadListSection = (): JSX.Element => {
