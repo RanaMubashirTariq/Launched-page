@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
-import groupE from "../../../../../public/group-5.svg"
+import groupE from "../../../../../public/group.svg"
 import vectorA from "../../../../../public/vector-1.svg"
 import vector from "../../../../../public/vector.svg"
 import vectorC from "../../../../../public/-x30-6.svg"

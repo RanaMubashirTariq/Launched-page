@@ -11,7 +11,7 @@ import { TokenUtilitySection } from "./sections/TokenUtilitySection";
 import './DesktopStars.css';
 import frame from "../../../Public/frame.svg"
 import freepik from "../../../Public/freepik--background--35766-1.png"
-import groupA from "../../../Public/group-5-1.svg"  
+import groupA from "../../../Public/groupA.svg"  
 import lineA from "../../../Public/lineB.svg" 
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
