@@ -8,7 +8,7 @@ import {
 import line from "../../../../../public/line-2.svg"
 import linet from "../../../../../public/line-2.svg"
 import check from "../../../../../public/fi-4325445.svg"
-import check1 from "../../../../../public/fi-4315445.svg"
+import checkt from "../../../../../public/fi-4315445.svg"
 export const CallToActionSection = (): JSX.Element => {
   // Data for Token Utility card
   const tokenUtilityFeatures = [
@@ -78,7 +78,7 @@ export const CallToActionSection = (): JSX.Element => {
                   <img
                     className="w-[30px] h-[30px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
                     alt="Check icon"
-                    src={check1}
+                    src={checkt}
                   />
                   <span className="font-['Poppins',Helvetica] font-medium text-white text-xl max-[680px]:text-sm">
                     {feature}

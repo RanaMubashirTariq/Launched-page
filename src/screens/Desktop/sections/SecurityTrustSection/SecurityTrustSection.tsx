@@ -4,7 +4,7 @@ import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Progress } from "../../../../components/ui/progress";
 import { Separator } from "../../../../components/ui/separator";
-import icPinksale from "../../../../../public/ic-pinksale-61500ae2-svg.svg"
+// import icPinksale from "../../../../../public/ic-pinksale-61500ae2-svg.svg"
 import framet from "../../../../../Public/frame-16.svg"
 import bellIcont from "../../../../../Public/bell-icon.svg"
 export const SecurityTrustSection = (): JSX.Element => {
