@@ -13,6 +13,7 @@ import frame from "../../../Public/frame.svg"
 import freepik from "../../../Public/freepik--background--35766-1.png"
 import groupA from "../../../Public/groupA.svg"  
 import lineA from "../../../Public/lineB.svg" 
+import star from '../../../Public/star.svg'
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
