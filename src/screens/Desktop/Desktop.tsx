@@ -11,7 +11,7 @@ import { TokenUtilitySection } from "./sections/TokenUtilitySection";
 import './DesktopStars.css';
 import frame from "../../../Public/frame.svg"
 import freepik from "../../../Public/freepik--background--35766-1.png"
-import group from "../../../Public/group-5-1.svg"  
+import groupA from "../../../Public/group-5-1.svg"  
 import lineA from "../../../Public/line-2.svg" 
 export const Desktop = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -240,7 +240,7 @@ export const Desktop = (): JSX.Element => {
           <img
             className="absolute w-[445px] h-[1166px] top-[-348px] left-[358px]"
             alt="Group"
-            src={group}
+            src={groupA}
           />
         </div>
 
