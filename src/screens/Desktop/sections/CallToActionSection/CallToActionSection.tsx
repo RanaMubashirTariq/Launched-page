@@ -5,8 +5,8 @@ import {
   CardHeader,
   CardTitle,
 } from "../../../../components/ui/card";
-import lineC from "../../../../../public/line-2.svg"
-// import linet from "../../../../../Public/line-2.svg"
+import lineC from "../../../../../public/lineB.svg"
+// import linet from "../../../../../Public/lineB.svg"
 import check from "../../../../../public/fi-4325445.svg"
 import checkt from "../../../../../public/fi-4315445.svg"
 export const CallToActionSection = (): JSX.Element => {
