@@ -4,11 +4,11 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import { ScrollArea, ScrollBar } from "../../../../components/ui/scroll-area";
 import toad from "../../../../../Public/original-png.png"
 import valu from "../../../../../Public/figure.png"
-import cow from "../../../../../public/figure-1.png"
-import koma from "../../../../../public/1728231454398-f00432283d18f075f373bbdc425ec972-png.png"
-import baby from "../../../../../public/1728995202100-867bfa0729040fbfaa700da0e73b4f3f-png.png"
-import reploy from "../../../../../public/1729786687597-fe8569ba511de57b1cd4f7925a74de81-png.png"
-import eai from "../../../../../public/1716209527383-cf565b97cdd0b00b3f1b72f6283b2f20-png-1.png"
+import cow from "../../../../../Public/figure-1.png"
+import koma from "../../../../../Public/1728231454398-f00432283d18f075f373bbdc425ec972-png.png"
+import baby from "../../../../../Public/1728995202100-867bfa0729040fbfaa700da0e73b4f3f-png.png"
+import reploy from "../../../../../Public/1729786687597-fe8569ba511de57b1cd4f7925a74de81-png.png"
+import eai from "../../../../../Public/1716209527383-cf565b97cdd0b00b3f1b72f6283b2f20-png-1.png"
 // Token data for mapping
 const tokens = [
   {

@@ -1,9 +1,9 @@
 import React from "react";
-import svgE from "../../../../../public/imgE.svg"
+import svgE from "../../../../../Public/imgE.svg"
 import svgA from "../../../../../Public/img.svg"
-import svgB from "../../../../../public/imgB.svg"
-import svgC from "../../../../../public/imgC.svg"
-import svgD from "../../../../../public/imgD.svg"
+import svgB from "../../../../../Public/imgB.svg"
+import svgC from "../../../../../Public/imgC.svg"
+import svgD from "../../../../../Public/imgD.svg"
 
 export const LaunchpadListSection = (): JSX.Element => {
   // Social media icons data
