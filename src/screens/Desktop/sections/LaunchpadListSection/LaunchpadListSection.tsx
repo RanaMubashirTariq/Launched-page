@@ -1,5 +1,5 @@
 import React from "react";
-import svg from "../../../../../public/svg-4.svg"
+import svgE from "../../../../../public/svg-4.svg"
 import svgA from "../../../../../public/svg-1.svg"
 import svgB from "../../../../../public/svg.svg"
 import svgC from "../../../../../public/svg-2.svg"
@@ -8,7 +8,7 @@ import svgD from "../../../../../public/svg-3.svg"
 export const LaunchpadListSection = (): JSX.Element => {
   // Social media icons data
   const socialIcons = [
-    { url: svg },
+    { url: svgE },
     { url: svgA },
     { url: svgB },
     { url: svgC },
