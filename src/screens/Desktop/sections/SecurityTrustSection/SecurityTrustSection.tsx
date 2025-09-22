@@ -6,7 +6,7 @@ import { Progress } from "../../../../components/ui/progress";
 import { Separator } from "../../../../components/ui/separator";
 import icPinksale from "../../../../../public/ic-pinksale-61500ae2-svg.svg"
 import framet from "../../../../../Public/frame-16.svg"
-import bellIcon from "../../../../../public/bell-icon.svg"
+import bellIcont from "../../../../../Public/bell-icon.svg"
 export const SecurityTrustSection = (): JSX.Element => {
   // Card data for mapping
   const launchpadCards = [
@@ -133,7 +133,7 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
             <div className="flex items-center gap-3 max-[680px]:gap-1">
               <div className="flex items-end gap-[11px] max-[680px]:gap-1">
                 <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={framet} />
-                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={bellIcon} />
+                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={bellIcont} />
 
               </div>
 
