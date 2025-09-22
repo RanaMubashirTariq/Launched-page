@@ -30,15 +30,15 @@ export const Desktop = (): JSX.Element => {
   const stars = [
     {
       className: "star-1",
-      src: "/star.svg",
+      src: star,
     },
     {
       className: "star-2",
-      src: "/star.svg",
+      src: star,
     },
     {
       className: "star-3",
-      src: "/star.svg",
+      src: star,
     },
   ];
 
