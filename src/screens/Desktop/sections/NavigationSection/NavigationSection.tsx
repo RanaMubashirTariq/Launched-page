@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { ScrollArea, ScrollBar } from "../../../../components/ui/scroll-area";
-import toad from "../../../../../public/original-png.png"
+import toad from "../../../../../Public/original-png.png"
 import valu from "../../../../../Public/1734711458548-9a933310e5c76125764f5d9ff136521c-png.png"
 import cow from "../../../../../public/1734711458548-9a933310e5c76125764f5d9ff136521c-png.png"
 import koma from "../../../../../public/1728231454398-f00432283d18f075f373bbdc425ec972-png.png"
