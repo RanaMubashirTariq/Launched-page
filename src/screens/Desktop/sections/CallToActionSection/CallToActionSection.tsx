@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "../../../../components/ui/card";
-import lineC from "../../../../../public/lineB.svg"
+// import lineC from "../../../../../public/lineB.svg"
 import circle from "../../../../../Public/circle.svg"
 import check from "../../../../../public/fi-4325445.svg"
 import checkt from "../../../../../public/fi-4315445.svg"
