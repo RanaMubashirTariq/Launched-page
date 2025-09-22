@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
-import group5 from "../../../../../public/group-5.svg"
+import groupE from "../../../../../public/group-5.svg"
 import vectorA from "../../../../../public/vector-1.svg"
 import vector from "../../../../../public/vector.svg"
 import vectorC from "../../../../../public/-x30-6.svg"
@@ -9,7 +9,7 @@ export const TokenUtilitySection = (): JSX.Element => {
   // Define card data for mapping
   const utilityCards = [
     {
-      icon: group5,
+      icon: groupE,
       iconWidth: "w-[48.4px]",
       iconHeight: "h-[48.4px]",
       iconMargin: "mt-[-7.20px]",
