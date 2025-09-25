@@ -278,7 +278,7 @@ export const Desktop = (): JSX.Element => {
             alt="Line"
                   src={lineA}
           />
-          <div className="flex w-full items-end justify-between w-[741px] mx-auto pt-4 pb-[32px]   max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[20px]">
+          <div className="flex w-full items-end justify-between w-[741px] px-[349px] pt-4 pb-[32px]   max-[1300px]:px-[100px] max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[20px]">
             <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-lg tracking-[0] leading-[27px] whitespace-nowrap max-[480px]:text-[12px] ">
               Copyright © ABC
             </div>
