@@ -4,7 +4,7 @@ import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Progress } from "../../../../components/ui/progress";
 import { Separator } from "../../../../components/ui/separator";
-// import icPinksale from "../../../../../public/ic-pinksale-61500ae2.svg"
+import icPinksale from "../../../../../public/ic-pinksale-61500ae2.png"
 import framet from "../../../../../Public/frame-16.svg"
 import bellIcont from "../../../../../Public/bell-icon.svg"
 export const SecurityTrustSection = (): JSX.Element => {
@@ -45,7 +45,7 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
     <Card className="flex flex-col w-[325px] items-start gap-[15px] px-4 py-[15px] bg-[#a097ff1a] rounded-[20px] border-none">
       <CardContent className="p-0 w-full">
         <div className="flex w-full items-center justify-between mb-[15px]">
-              <div className="w-16 h-16 bg-[url(${icPinksale})] bg-[100%_100%]" />
+              <img src={icPinksale} className="w-16 h-16 max-[1000px]:w-12 max-[1000px]:h-12" />
 
           <Badge className="flex items-center gap-[3px] px-[15px] py-1.5 bg-[#2e286e] rounded-[47px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640]">
             <div className="w-[9px] h-[9px] bg-[#f3ba2f] rounded-[4.5px]" />

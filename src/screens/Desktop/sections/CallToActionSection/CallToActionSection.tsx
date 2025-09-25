@@ -8,13 +8,21 @@ import {
 import lineC from "../../../../../Public/lineB.svg"
 import circle from "../../../../../Public/circle.svg"
 import check from "../../../../../Public/fi-4325445.svg"
+import checkA from "../../../../../Public/check-2.png"
+import checkB from "../../../../../Public/check-3.png"
 import checkt from "../../../../../Public/fi-4315445.svg"
 export const CallToActionSection = (): JSX.Element => {
   // Data for Token Utility card
   const tokenUtilityFeatures = [
-    "Fee Discount",
-    "Governance",
-    "Launch Participation",
+    { id:1,
+      icon : check ,
+      name:"Fee Discount",},
+      { id:2,
+        icon : checkA ,
+        name:"Governance",},
+        { id:1,
+          icon : checkB ,
+          name:"Launch Participation",},
   ];
 
   // Data for Security & Trust card
@@ -42,10 +50,10 @@ export const CallToActionSection = (): JSX.Element => {
                   <img
                     className="w-[30px] h-[30px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
                     alt="Check icon"
-                    src={check}
+                    src={feature.icon}
                   />
                   <span className="font-['Poppins',Helvetica] font-medium text-white text-xl max-[680px]:text-sm">
-                    {feature}
+                    {feature.name}
                   </span>
                 </div>
               ))}
