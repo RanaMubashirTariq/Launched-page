@@ -149,39 +149,45 @@ export const Desktop = (): JSX.Element => {
                 </button>
               </div>
 
-              {/* Mobile Menu Overlay */}
-              {isMenuOpen && (
-                <div className="hidden max-[1000px]:block fixed top-0 right-0 w-[250px] h-full bg-[#020022] bg-opacity-95 z-50">
-                  <div className="flex flex-col items-start pt-[80px] h-full pl-[30px] space-y-6">
-                    {/* Close button */}
-                    <button
-                      onClick={() => setIsMenuOpen(false)}
-                      className="absolute top-8 right-8 text-[#afaabf] text-2xl"
-                    >
-                      ×
-                    </button>
-                    
-                    {/* Mobile Navigation Links */}
-                    <div className="flex flex-col items-start space-y-4">
-                      {navItems.map((item, index) => (
-                        <a
-                          key={index}
-                          href={item.href}
-                          onClick={() => setIsMenuOpen(false)}
-                          className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-2xl max-[767px]:text-[18px] tracking-[0] leading-[normal] hover:text-white transition-colors"
-                        >
-                          {item.label}
-                        </a>
-                      ))}
-                    </div>
+              {/* Mobile Menu: Backdrop + Slide-in Panel */}
+              {/* Backdrop */}
+              <div
+                onClick={() => setIsMenuOpen(false)}
+                className={`hidden max-[1000px]:block fixed inset-0  z-40 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+              />
+              {/* Panel */}
+              <div
+                className={`hidden max-[1000px]:block fixed top-0 right-0 w-[220px] h-full bg-[#020022] bg-opacity-95 z-50 transform transition-transform duration-300 ease-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+              >
+                <div className="flex flex-col items-start pt-[80px] h-full pl-[30px] pr-6 space-y-6">
+                  {/* Close button */}
+                  <button
+                    onClick={() => setIsMenuOpen(false)}
+                    className="absolute top-8 right-8 text-[#afaabf] text-2xl"
+                  >
+                    ×
+                  </button>
 
-                    {/* Mobile Connect Wallet Button */}
-                    <Button className="px-2  py-4 bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-[16px] hover:text-white transition-colors">
-                      Connect Wallet
-                    </Button>
+                  {/* Mobile Navigation Links */}
+                  <div className="flex flex-col items-start space-y-4">
+                    {navItems.map((item, index) => (
+                      <a
+                        key={index}
+                        href={item.href}
+                        onClick={() => setIsMenuOpen(false)}
+                        className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-2xl max-[767px]:text-[18px] tracking-[0] leading-[normal] hover:text-white transition-colors"
+                      >
+                        {item.label}
+                      </a>
+                    ))}
                   </div>
+
+                  {/* Mobile Connect Wallet Button */}
+                  <Button className="px-2 py-4 bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-[16px] hover:text-white transition-colors">
+                    Connect Wallet
+                  </Button>
                 </div>
-              )}
+              </div>
 
               {/* Hero Section */}
               <HeroSection />
