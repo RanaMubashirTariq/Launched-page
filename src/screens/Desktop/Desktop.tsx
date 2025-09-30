@@ -151,8 +151,8 @@ export const Desktop = (): JSX.Element => {
 
               {/* Mobile Menu Overlay */}
               {isMenuOpen && (
-                <div className="hidden max-[1000px]:block fixed top-0 left-0 w-full h-full bg-[#020022] bg-opacity-95 z-50">
-                  <div className="flex flex-col items-center justify-center h-full space-y-8">
+                <div className="hidden max-[1000px]:block fixed top-0 right-0 w-[250px] h-full bg-[#020022] bg-opacity-95 z-50">
+                  <div className="flex flex-col items-start pt-[80px] h-full pl-[15px] space-y-6">
                     {/* Close button */}
                     <button
                       onClick={() => setIsMenuOpen(false)}
@@ -162,13 +162,13 @@ export const Desktop = (): JSX.Element => {
                     </button>
                     
                     {/* Mobile Navigation Links */}
-                    <div className="flex flex-col items-center space-y-6">
+                    <div className="flex flex-col items-start space-y-4">
                       {navItems.map((item, index) => (
                         <a
                           key={index}
                           href={item.href}
                           onClick={() => setIsMenuOpen(false)}
-                          className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-2xl tracking-[0] leading-[normal] hover:text-white transition-colors"
+                          className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-2xl max-[767px]:text-[18px] tracking-[0] leading-[normal] hover:text-white transition-colors"
                         >
                           {item.label}
                         </a>
@@ -176,7 +176,7 @@ export const Desktop = (): JSX.Element => {
                     </div>
 
                     {/* Mobile Connect Wallet Button */}
-                    <Button className="px-8 py-4 bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl hover:text-white transition-colors">
+                    <Button className="px-2  py-4 bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-[16px] hover:text-white transition-colors">
                       Connect Wallet
                     </Button>
                   </div>
