@@ -152,7 +152,7 @@ export const Desktop = (): JSX.Element => {
               {/* Mobile Menu Overlay */}
               {isMenuOpen && (
                 <div className="hidden max-[1000px]:block fixed top-0 right-0 w-[250px] h-full bg-[#020022] bg-opacity-95 z-50">
-                  <div className="flex flex-col items-start pt-[80px] h-full pl-[15px] space-y-6">
+                  <div className="flex flex-col items-start pt-[80px] h-full pl-[30px] space-y-6">
                     {/* Close button */}
                     <button
                       onClick={() => setIsMenuOpen(false)}
