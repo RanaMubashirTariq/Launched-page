@@ -103,12 +103,12 @@ export const Desktop = (): JSX.Element => {
 
   return (
     <div className="bg-[#020022] flex flex-row justify-center w-full">
-      <div className="bg-[#020022] overflow-hidden w-[1440px] relative">
+      <div className="bg-[#020022] overflow-hidden min-[1500px]:w-[100%] w-[1440px] relative">
         <div className="relative w-full">
           <div className="relative w-full">
             <div className="relative w-full">
               {/* Header Navigation */}
-              <div className="flex items-center justify-between px-[80px] py-[50px] max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[32px]">
+              <div className="flex items-center justify-between px-[120px] max-[1500px]:px-[80px] py-[50px] max-[1100px]:px-[50px] max-[680px]:px-[25px] max-[680px]:py-[32px]">
                 {/* Logo */}
                 <div className="flex items-end gap-[5px]">
                     <img
@@ -210,15 +210,15 @@ export const Desktop = (): JSX.Element => {
               <NavigationSection />
 
             
-              <div className="absolute w-[402px] h-[402px] top-[257px] left-[899px] bg-[#a097ffcc] rounded-[201px] blur-[88.6px] max-[1300px]:w-[302px] max-[1300px]:h-[302px] max-[1100px]:top-[250px] max-[1100px]:hidden max-[1000px]:left-[50%] max-[680px]:w-[102px] max-[680px]:h-[102px]" />
-              <img  className="absolute max-w-[659px] max-h-[659px] top-[100px] left-[750px] object-cover z-10 max-[1300px]:max-w-[559px] max-[1300px]:max-h-[559px] max-[1100px]:top-[50px] max-[1100px]:left-[500px] max-[1000px]:hidden rotate-[221deg]"
+              <div className="absolute w-[402px] h-[402px] top-[257px] right-[150px] max-[1500px]:left-[899px] bg-[#a097ffcc] rounded-[201px] blur-[88.6px] max-[1300px]:w-[302px] max-[1300px]:h-[302px] max-[1100px]:top-[250px] max-[1100px]:left-[640px]  max-[1000px]:left-[250px] max-[767px]:left-[230px] max-[1000px]:top-[600px] max-[767px]:top-[340px] max-[365px]:top-[390px] max-[400px]:left-[170px] max-[400px]:h-[300px] max-[767px]:w-[102px] max-[680px]:h-[400px]" />
+              <img  className="absolute max-w-[659px] max-h-[659px] top-[100px]  right-[30px] max-[1500px]:left-[750px] object-cover z-10 max-[1300px]:max-w-[559px] max-[1300px]:max-h-[559px] max-[767px]:max-w-[400px] max-[767px]:h-[400px] max-[1100px]:top-[50px] max-[1100px]:left-[500px] max-[1000px]:left-[150px] max-[1000px]:top-[500px] max-[767px]:top-[300px] max-[365px]:top-[360px] max-[767px]:left-[70px] max-[500px]:w-[300px] max-[400px]:left-[30px] max-[340px]:left-[10px] max-[400px]:object-center  rotate-[221deg]"
                 alt="Freepik background"
                 src={freepik}
               />
             </div>
 
           
-            <div className="absolute top-[-100px] left-[-250px]  w-full  max-[1300px]:left-[-300px] max-[1300px]:top-[-200px] max-[1100px]:left-[-250px] max-[1000px]:left-[-300px] max-[680px]:left-[-300px] max-[680px]:top-[-300px]">
+            <div className="absolute top-[-100px] left-[-250px]  w-full  max-[1300px]:left-[-300px] max-[1300px]:top-[-200px] max-[1000px]:top-[300px] max-[1100px]:left-[-250px] max-[1000px]:left-[-300px] max-[680px]:left-[-300px] max-[767px]:top-[-100px]">
               <div className="absolute w-[438px] h-[410px] top-[822px] left-0">
                 {decorativeBorders.slice(0, 3).map((border, index) => (
                   <div key={`border-${index}`} className={border.className} />
@@ -230,7 +230,7 @@ export const Desktop = (): JSX.Element => {
           <SecurityTrustSection />
 
          
-          <div className="absolute top-[280px] right-[-1293px]  w-full max-[1300px]:right-[-1100px] max-[1100px]:right-[-900px] max-[1000px]:top-[600px] max-[1000px]:right-[-700px] max-[680px]:right-[-400px]">
+          <div className="absolute top-[280px] right-[-1660px] max-[1750px]:right-[-1500px] max-[1500px]:right-[-1293px]  w-full max-[1300px]:right-[-1100px] max-[1100px]:right-[-900px] max-[1000px]:top-[600px] max-[1000px]:right-[-700px] max-[680px]:right-[-400px]">
               <div className="absolute w-[438px] h-[410px] top-[822px] left-0">
                 {decorativeBorders.slice(0, 3).map((border, index) => (
                   <div key={`border-${index}`} className={border.className} />
@@ -243,9 +243,9 @@ export const Desktop = (): JSX.Element => {
         <TokenUtilitySection />
 
         {/* Decorative Group */}
-        <div className="absolute w-[456px] h-[470px] top-[2103px] left-[-358px] max-[1100px]:top-[2300px] max-[1000px]:left-[-400px] max-[680px]:top-[3500px]">
+        <div className="absolute w-[456px] h-[470px] top-[2103px] left-[-400px] max-[1500px]:left-[-358px] max-[1100px]:top-[2300px] max-[1000px]:left-[-400px] max-[680px]:top-[3500px] max-[1000px]:top-[3000px]">
           <img
-            className="absolute w-[445px] h-[1166px] top-[-348px] left-[358px]"
+            className="absolute w-[445px] h-[1166px] top-[-348px] left-[400px] max-[1500px]:left-[358px]"
             alt="Group"
             src={groupA}
           />
@@ -265,7 +265,7 @@ export const Desktop = (): JSX.Element => {
             {decorativeBorders.slice(5).map((border, index) => (
               <div
                 key={`border-footer-${index}`}
-                className={`${border.className} ml-[200px] max-[1300px]:w-[300px]  max-[1300px]:ml-[80px] max-[1100px]:ml-[50px]`}
+                className={`${border.className} ml-[650px] max-[1800px]:ml-[450px] max-[1680px]:ml-[330px] max-[1500px]:ml-[200px] max-[1300px]:w-[300px]  max-[1300px]:ml-[80px] max-[1100px]:ml-[50px]`}
               />
             ))}
 
@@ -288,7 +288,7 @@ export const Desktop = (): JSX.Element => {
             <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-lg tracking-[0] leading-[27px] whitespace-nowrap max-[480px]:text-[12px] ">
               Copyright © ABC
             </div>
-            <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-[15px] text-center tracking-[0] leading-[17.4px] whitespace-nowrap max-[480px]:text-[12px]">
+            <div className="relative [font-family:'Poppins',Helvetica] font-normal text-white text-[17px] max-[1500px]:text-[15px] text-center tracking-[0] leading-[17.4px] whitespace-nowrap max-[480px]:text-[12px]">
               © 2025&nbsp;&nbsp;All rights reserved
             </div>
           </div>

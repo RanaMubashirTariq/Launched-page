@@ -19,7 +19,7 @@ export const SecurityTrustSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="flex flex-col items-center gap-9 w-full  mx-auto max-[1100px]:max-w-[100%] my-[50px] max-[680px]:my-[32px] max-[680px]:gap-4  max-[680px]:px-[25px]">
+    <section className="flex flex-col items-center gap-9 w-full  mx-auto max-[1100px]:max-w-[100%] my-[50px] max-[680px]:my-[32px] max-[680px]:gap-4  max-[680px]:px-[25px] relative z-20">
       <h2 className="w-full [font-family:'Poppins',Helvetica] font-bold text-[#afabbf] text-5xl text-center max-[1100px]:text-3xl max-[680px]:text-2xl max-[680px]:text-center">
         Launchpad List
       </h2>
@@ -42,9 +42,9 @@ export const SecurityTrustSection = (): JSX.Element => {
 // LaunchpadCard component for reusability
 const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
   return (
-    <Card className="flex flex-col w-[325px] items-start gap-[15px] px-4 py-[15px] bg-[#a097ff1a] rounded-[20px] border-none">
+    <Card className="flex flex-col min-[1500px]:w-[450px] w-[325px] items-start gap-[15px] px-4 py-[15px] bg-[#a098ff]/10 rounded-[20px] border-none">
       <CardContent className="p-0 w-full">
-        <div className="flex w-full items-center justify-between mb-[15px]">
+        <div className="flex w-full items-center justify-between min-[1500px]:mb-[30px] mb-[15px]">
               <img src={icPinksale} className="w-16 h-16 max-[1000px]:w-12 max-[1000px]:h-12" />
 
           <Badge className="flex items-center gap-[3px] px-[15px] py-1.5 bg-[#2e286e] rounded-[47px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640]">
@@ -55,8 +55,8 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
           </Badge>
         </div>
 
-        <div className="flex flex-col w-full items-start gap-1.5 mb-[15px] ">
-          <div className="flex flex-col items-start gap-[11px] w-full max-[680px]:gap-2">
+        <div className="flex flex-col w-full items-start gap-1.5  min-[1500px]:mb-[30px] mb-[15px] ">
+          <div className="flex flex-col items-start gap-[11px] w-full max-[680px]:gap-2 min-[1500px]:mb-[15px]">
             <div className="flex flex-col items-start gap-0.5 w-full max-[680px]:gap-1 ">
               <h3 className="w-full [font-family:'Poppins',Helvetica] font-medium text-white text-lg max-[680px]:text-sm">
                 Defi Kings Lending
@@ -98,7 +98,7 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
         </div>
 
         <div className="flex flex-col w-full items-start gap-2 max-[680px]:gap-1">
-          <div className="flex flex-col items-start gap-3.5 w-full max-[680px]:gap-2">
+          <div className="flex flex-col items-start gap-3.5 w-full max-[680px]:gap-2 min-[1500px]:mb-[15px]">
             <div className="flex flex-col w-full items-start gap-[5px] max-[680px]:gap-1">
               <div className="flex items-center justify-between w-full ">
                 <span className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-sm max-[680px]:text-xs">
@@ -130,7 +130,7 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
               </span>
             </div>
 
-            <div className="flex items-center gap-3 max-[680px]:gap-1">
+            <div className="flex items-center gap-3  max-[680px]:gap-1">
               <div className="flex items-end gap-[11px] max-[680px]:gap-1">
                 <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={framet} />
                 <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={bellIcont} />

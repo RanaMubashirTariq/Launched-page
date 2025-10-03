@@ -5,7 +5,7 @@ import { Input } from "../../../../components/ui/input";
 import freepikA from "../../../../../Public/freepik--create-a-new-version-of-the-3d-futuristic-crypto-v--357.png"
 export const FooterSection = (): JSX.Element => {
   return (
-    <Card className="flex items-center gap-20 p-14 bg-[#a097ff26] rounded-[30px] border border-solid border-[#544bbf80] mx-[180px] my-[100px] max-[1300px]:mx-[100px] max-[1100px]:mx-[50px] max-[680px]:mx-[25px] max-[680px]:my-[32px] max-[1000px]:my-[50px] max-[1100px]:gap-10 max-[1100px]:p-8 max-[1000px]:flex-col-reverse max-[1000px]:items-center max-[480px]:p-4 max-[480px]:gap-4">
+    <Card className="flex items-center gap-20 p-14 bg-[#a097ff26] rounded-[30px] max-[767px]:rounded-[20px] border border-solid border-[#544bbf80] mx-[180px] my-[100px] max-[1300px]:mx-[100px] max-[1100px]:mx-[50px] max-[680px]:mx-[25px] max-[680px]:my-[32px] max-[1000px]:my-[50px] max-[1100px]:gap-10 max-[1100px]:p-8 max-[1000px]:flex-col-reverse max-[1000px]:items-center max-[480px]:p-4 max-[480px]:gap-4">
       <CardContent className="flex flex-col items-start gap-10 p-0 max-[1000px]:items-center">
         <h2 className="font-bold text-[#afabbf] text-[40px] font-['Poppins',Helvetica] leading-normal whitespace-nowrap max-[1100px]:whitespace-normal max-[1100px]:w-[500px] max-[680px]:text-2xl  max-[1000px]:text-center   max-[1000px]:w-[100%]   ">
           Want to Launch your Project
@@ -28,10 +28,10 @@ export const FooterSection = (): JSX.Element => {
       </CardContent>
 
       <div className="relative w-[325px] h-[325px]">
-        <div className="absolute w-[292px] h-[31px] top-[255px] left-[23px] bg-[#a097ff] rounded-[146px/15.5px] blur-[23.25px] max-[480px]:top-[200px] max-[480px]:left-[30px] max-[480px]:w-[200px]" />
-        <div className="absolute w-[268px] h-[295px] top-3 left-[38px] bg-[#a097ff33] rounded-[134.03px/147.35px] rotate-[-90.32deg] blur-[23.25px] max-[480px]:w-[200px] max-[480px]:h-[200px] max-[480px]:top-[50px] max-[480px]:left-[50px]" />
+        <div className="absolute w-[292px] h-[31px] top-[255px] right-[-300px] max-[1750px]:right-[-100px] max-[1500px]:left-[23px] bg-[#a097ff] rounded-[146px/15.5px] blur-[23.25px] max-[480px]:top-[200px] max-[480px]:left-[30px] max-[480px]:w-[200px]" />
+        <div className="absolute w-[268px] h-[295px] top-3 right-[-300px] max-[1750px]:right-[-100px] max-[1500px]:left-[38px] bg-[#a097ff33] rounded-[134.03px/147.35px] rotate-[-90.32deg] blur-[23.25px] max-[480px]:w-[200px] max-[480px]:h-[200px] max-[480px]:top-[50px] max-[480px]:left-[50px]" />
         <img
-          className="absolute w-[325px] h-[325px] top-0 left-0 object-cover max-[480px]:w-[200px] max-[480px]:h-[200px] max-[480px]:top-[50px] max-[480px]:left-[50px]"
+          className="absolute w-[325px] h-[325px] top-0 right-[-330px] max-[1750px]:right-[-100px] max-[1500px]:left-0 object-cover max-[480px]:w-[200px] max-[480px]:h-[200px] max-[480px]:top-[50px] max-[480px]:left-[50px]"
           alt="Futuristic crypto illustration"
           src={freepikA}
         />

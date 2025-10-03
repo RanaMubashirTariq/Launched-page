@@ -79,7 +79,7 @@ const tokens = [
 
 export const NavigationSection = (): JSX.Element => {
   return (
-    <div className="w-full py-20 overflow-hidden max-[1100px]:py-10 max-[680px]:py-5">
+    <div className="w-full py-20 overflow-hidden max-[1100px]:py-10 max-[1000px]:pt-[500px] max-[767px]:pt-[300px]">
     <Marquee pauseOnHover speed={50} gradient={false}>
       <div className="flex items-center gap-[24px]">
         {tokens.map((token, index) => (

@@ -29,9 +29,9 @@ export const CallToActionSection = (): JSX.Element => {
   const securityFeatures = ["Audited by Certik", "KYC Bypass", "BlockPass"];
 
   return (
-    <div className="flex gap-11 w-full justify-center px-[180px] max-[1300px]:px-[100px] max-[1100px]:px-[50px]  max-[680px]:px-[25px] max-[1000px]:justify-center max-[1000px]:flex-wrap max-[680px]:gap-4 ">
+    <div className="flex gap-11 w-full min-[1500px]:max-w-[1500px] min-[1500px]:mx-auto justify-center px-[180px] max-[1300px]:px-[100px] max-[1100px]:px-[50px]  max-[680px]:px-[25px] max-[1000px]:justify-center max-[1000px]:flex-wrap max-[680px]:gap-4 ">
       {/* Token Utility and Tokonomics Card */}
-      <Card className="w-[618px] bg-[#06023380] rounded-[35px] border border-solid border-[#a097ff33] max-[1000px]:w-[100%]">
+      <Card className="min-[1500px]:w-[700px] w-[618px] bg-[#06023380] rounded-[35px] max-[767px]:rounded-[20px] border border-solid border-[#a097ff33] max-[1000px]:w-[100%]">
         <CardHeader className="px-[37px] pt-4 pb-0">
           <CardTitle className="font-bold text-4xl text-[#afabbf] font-['Poppins',Helvetica] max-[680px]:text-2xl">
             Token Utility and Tokonomics
@@ -67,7 +67,7 @@ export const CallToActionSection = (): JSX.Element => {
       </Card>
 
       {/* Security & Trust Card */}
-      <Card className="w-[417px] bg-[#06023380] rounded-[35px] border border-solid border-[#a097ff33] max-[1000px]:w-[100%]">
+      <Card className="min-[1500px]:w-[550px] w-[417px] bg-[#06023380] rounded-[35px] max-[767px]:rounded-[20px] border border-solid border-[#a097ff33] max-[1000px]:w-[100%]">
         <CardHeader className="px-[37px] pt-[19px] pb-0">
           <CardTitle className="font-bold text-4xl text-[#afabbf] font-['Poppins',Helvetica] max-[680px]:text-2xl">
             Security &amp; Trust

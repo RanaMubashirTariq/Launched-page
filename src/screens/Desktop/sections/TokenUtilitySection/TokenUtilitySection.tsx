@@ -47,11 +47,11 @@ export const TokenUtilitySection = (): JSX.Element => {
   ];
 
   return (
-    <div className="flex items-center  gap-[37px] w-full px-[180px] pt-[50px] pb-[61px] max-[1300px]:px-[100px] max-[1100px]:px-[50px]  max-[680px]:px-[25px] max-[1000px]:justify-center max-[1000px]:flex-wrap max-[680px]:gap-4 max-[680px]:pt-[32px] max-[680px]:pb-[32px]">
+    <div className="flex items-center  gap-[37px] w-full min-[1500px]:max-w-[1500px] min-[1500px]:mx-auto px-[180px] pt-[50px] pb-[61px] max-[1300px]:px-[100px] max-[1100px]:px-[50px]  max-[680px]:px-[25px] max-[1000px]:justify-center max-[1000px]:flex-wrap max-[680px]:gap-4 max-[680px]:pt-[32px] max-[680px]:pb-[32px]">
       {utilityCards.map((card, index) => (
         <Card
           key={index}
-          className="flex flex-col w-[242px] items-center bg-[#afaabf1a] rounded-[17px] border border-solid border-[#afaabf33] shadow-[inset_0px_-4px_4.5px_#b0b0b040]"
+          className="flex flex-col w-[242px] max-[500px]:w-[100%] items-center bg-[#afaabf1a] rounded-[17px] border border-solid border-[#afaabf33] shadow-[inset_0px_-4px_4.5px_#b0b0b040]"
         >
           <CardContent className="flex flex-col items-center gap-[17px] px-8 py-[52px] w-full">
             <img
