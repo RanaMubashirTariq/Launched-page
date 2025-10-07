@@ -9,7 +9,7 @@ import { NavigationSection } from "./sections/NavigationSection";
 import { SecurityTrustSection } from "./sections/SecurityTrustSection/SecurityTrustSection";
 import { TokenUtilitySection } from "./sections/TokenUtilitySection"; 
 import './DesktopStars.css';
-import frame from "../../../Public/frame.svg"
+import frame from "../../../Public/frame.png"
 import freepik from "../../../Public/freepik--background--35766-1.png"
 import groupA from "../../../Public/groupA.svg"  
 import lineA from "../../../Public/lineB.svg" 
@@ -29,15 +29,15 @@ export const Desktop = (): JSX.Element => {
   // Decorative elements data
   const stars = [
     {
-      className: "star-1",
+      className: "star-1 min-[1750px]:ml-[450px] min-[1610px]:ml-[250px] min-[1500px]:ml-[100px]",
       src: star,
     },
     {
-      className: "star-2",
+      className: "star-2 min-[1750px]:ml-[300px] min-[1610px]:ml-[150px] max-[1500px]:ml-0",
       src: star,
     },
     {
-      className: "star-3",
+      className: "star-3 min-[1500px]:ml-[40px]",
       src: star,
     },
   ];
@@ -45,7 +45,7 @@ export const Desktop = (): JSX.Element => {
   const dots = [
     {
       className:
-        "absolute w-[5px] h-[7px] top-[433px] left-[119px] bg-white rounded-[2.5px/3.5px]",
+        "absolute w-[5px] h-[7px] min-[1500px]:left-[150px] min-[1500px]:top-[420px] top-[413px] max-[1300px]:top-[380px] max-[1300px]:left-[100px] left-[119px] bg-white rounded-[2.5px/3.5px]",
     },
     {
       className:
@@ -61,7 +61,7 @@ export const Desktop = (): JSX.Element => {
     },
     {
       className:
-        "absolute w-[5px] h-[7px] top-[130px] left-[705px] bg-[#bb2ada] rounded-[2.5px/3.5px]",
+        "absolute w-[5px] h-[7px] min-[1500px]:left-[800px]  top-[130px] left-[705px] bg-[#bb2ada] rounded-[2.5px/3.5px]",
     },
   ];
 
@@ -112,13 +112,10 @@ export const Desktop = (): JSX.Element => {
                 {/* Logo */}
                 <div className="flex items-end gap-[5px]">
                     <img
-                    className="relative w-[37px] h-[42px] object-cover max-[680px]:w-[27px] max-[680px]:h-[32px]"
+                    className="relative w-[200px] h-[42px] object-contain max-[680px]:w-[150px] max-[680px]:h-[32px]"
                     alt="Frame"
                     src={frame} 
                   />
-                  <div className="relative w-fit [font-family:'SeoulHangang_CEB-Regular',Helvetica] font-normal text-white text-[32px] tracking-[0] leading-[normal] whitespace-nowrap max-[680px]:text-[24px]">
-                    Launchhood
-                  </div>
                 </div>
 {/* Navigation Links - Hidden on mobile */}
                 <div className="flex items-center gap-12 max-[1100px]:gap-6 max-[1000px]:hidden">
@@ -126,7 +123,7 @@ export const Desktop = (): JSX.Element => {
                     <a
                       key={index}
                       href={item.href}
-                      className="relative w-fit [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl tracking-[0] leading-[normal]"
+                      className="relative w-fit [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] hover:text-white text-xl tracking-[0] leading-[normal]"
                     >
                       {item.label}
                     </a>
@@ -134,7 +131,7 @@ export const Desktop = (): JSX.Element => {
                 </div>
 
                 {/* Connect Wallet Button - Hidden on mobile */}
-                <Button className="px-5 py-[18px] bg-[#060232] hover:bg-[#060232]/80 rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[1000px]:hidden">
+                <Button className="px-5 py-[18px] h-[66px] bg-[#060232] hover:bg-[#060232]/80 rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[1000px]:hidden">
                   Connect Wallet
                 </Button>
 
@@ -218,7 +215,7 @@ export const Desktop = (): JSX.Element => {
             </div>
 
           
-            <div className="absolute top-[-100px] left-[-250px]  w-full  max-[1300px]:left-[-300px] max-[1300px]:top-[-200px] max-[1000px]:top-[300px] max-[1100px]:left-[-250px] max-[1000px]:left-[-300px] max-[680px]:left-[-300px] max-[767px]:top-[-100px]">
+            <div className="absolute top-[-100px] left-[-250px] max-[1700px]:left-[-300px]  w-full  max-[1400px]:left-[-300px] max-[1300px]:top-[-200px] max-[1000px]:top-[300px] max-[1100px]:left-[-250px] max-[1000px]:left-[-300px] max-[680px]:left-[-300px] max-[767px]:top-[-100px]">
               <div className="absolute w-[438px] h-[410px] top-[822px] left-0">
                 {decorativeBorders.slice(0, 3).map((border, index) => (
                   <div key={`border-${index}`} className={border.className} />
@@ -230,7 +227,7 @@ export const Desktop = (): JSX.Element => {
           <SecurityTrustSection />
 
          
-          <div className="absolute top-[280px] right-[-1660px] max-[1750px]:right-[-1500px] max-[1500px]:right-[-1293px]  w-full max-[1300px]:right-[-1100px] max-[1100px]:right-[-900px] max-[1000px]:top-[600px] max-[1000px]:right-[-700px] max-[680px]:right-[-400px]">
+          <div className="absolute top-[280px] right-[-1660px] max-[1750px]:right-[-1500px] max-[1600px]:right-[-1400px] max-[1500px]:right-[-1293px]  w-full max-[1350px]:right-[-1100px] max-[1200px]:right-[-900px] max-[1000px]:top-[600px] max-[1000px]:right-[-700px] max-[680px]:right-[-400px]">
               <div className="absolute w-[438px] h-[410px] top-[822px] left-0">
                 {decorativeBorders.slice(0, 3).map((border, index) => (
                   <div key={`border-${index}`} className={border.className} />

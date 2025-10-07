@@ -89,3 +89,10 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
