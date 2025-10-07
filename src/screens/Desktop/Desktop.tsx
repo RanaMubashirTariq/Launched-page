@@ -134,7 +134,7 @@ export const Desktop = (): JSX.Element => {
                 </div>
 
                 {/* Connect Wallet Button - Hidden on mobile */}
-                <Button className="px-5 py-[18px] bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[1000px]:hidden">
+                <Button className="px-5 py-[18px] bg-[#060232] hover:bg-[#060232]/80 rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[1000px]:hidden">
                   Connect Wallet
                 </Button>
 
@@ -183,7 +183,7 @@ export const Desktop = (): JSX.Element => {
                   </div>
 
                   {/* Mobile Connect Wallet Button */}
-                  <Button className="px-2 py-4 bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-[16px] hover:text-white transition-colors">
+                  <Button className="relative z-11 px-2 py-4 bg-[#060232] hover:bg-[#060232]/90 rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce650] [font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-[16px] hover:text-white transition-colors">
                     Connect Wallet
                   </Button>
                 </div>

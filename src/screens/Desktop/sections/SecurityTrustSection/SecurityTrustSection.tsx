@@ -47,7 +47,7 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
         <div className="flex w-full items-center justify-between min-[1500px]:mb-[30px] mb-[15px]">
               <img src={icPinksale} className="w-16 h-16 max-[1000px]:w-12 max-[1000px]:h-12" />
 
-          <Badge className="flex items-center gap-[3px] px-[15px] py-1.5 bg-[#2e286e] rounded-[47px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640]">
+          <Badge className="flex items-center gap-[3px] px-[15px] py-1.5 bg-[#2e286e] hover:bg-[#2e286e]/90 rounded-[47px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640]">
             <div className="w-[9px] h-[9px] bg-[#f3ba2f] rounded-[4.5px]" />
             <span className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-xs max-[680px]:text-xs max-[680px]:text-center">
               Upcoming
@@ -132,12 +132,12 @@ const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
 
             <div className="flex items-center gap-3  max-[680px]:gap-1">
               <div className="flex items-end gap-[11px] max-[680px]:gap-1">
-                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={framet} />
-                <img className="w-[33px] max-[680px]:w-[23px]" alt="Frame" src={bellIcont} />
+                <img className="w-[33px] max-[680px]:w-[23px] cursor-pointer" alt="Frame" src={framet} />
+                <img className="w-[33px] max-[680px]:w-[23px] cursor-pointer" alt="Frame" src={bellIcont} />
 
               </div>
 
-              <Button className="flex items-center justify-center px-[17px] py-[5px] bg-[#060232] rounded-[91px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] h-auto max-[680px]:px-[10px] max-[680px]:py-[3px] max-[680px]:text-xs">
+              <Button className="flex items-center justify-center px-[17px] py-[5px] bg-[#060232] hover:bg-[#060232]/80   rounded-[91px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] h-auto max-[680px]:px-[10px] max-[680px]:py-[3px] max-[680px]:text-xs">
                 <span className="[font-family:'Poppins',Helvetica] font-medium text-[#afaabf] text-[11px]">
                   View
                 </span>

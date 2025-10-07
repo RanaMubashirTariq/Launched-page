@@ -16,11 +16,11 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       <div className="flex items-center gap-6 max-[360px]:flex-col max-[6800px]:gap-4 max-[767px]:w-[100%] max-[767px]:justify-center">
-        <Button className="px-5 py-[18px] bg-[#2e286e] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] font-['Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-sm max-[767px]:w-[140px] h-auto max-[380px]:w-[100%]  max-[680px]:py-[10px]">
+        <Button className="px-5 py-[18px] bg-[#2e286e] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] font-['Poppins',Helvetica] font-medium text-[#afaabf] hover:bg-[#2e286e]/90 text-xl max-[767px]:text-sm max-[767px]:w-[140px] h-auto max-[380px]:w-[100%]  max-[680px]:py-[10px]">
           Join IDO
         </Button>
 
-        <Button className="px-5 py-[18px] bg-[#060232] rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] font-['Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-sm max-[767px]:w-[140px] h-auto max-[380px]:w-[100%] max-[680px]:py-[10px]">
+        <Button className="px-5 py-[18px] bg-[#060232] hover:bg-[#060232]/80 rounded-[15px] border border-solid border-[#afaabf80] shadow-[inset_0px_-4px_11.7px_#907ce640] font-['Poppins',Helvetica] font-medium text-[#afaabf] text-xl max-[767px]:text-sm max-[767px]:w-[140px] h-auto max-[380px]:w-[100%] max-[680px]:py-[10px]">
           Apply Launch
         </Button>
       </div>

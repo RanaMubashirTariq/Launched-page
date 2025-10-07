@@ -4,15 +4,16 @@ import svgA from "../../../../../Public/img.svg"
 import svgB from "../../../../../Public/imgB.svg"
 import svgC from "../../../../../Public/imgC.svg"
 import svgD from "../../../../../Public/imgD.svg"
+import { Link } from "react-router-dom";
 
 export const LaunchpadListSection = (): JSX.Element => {
   // Social media icons data
   const socialIcons = [
-    { url: svgE },
-    { url: svgA },
-    { url: svgB },
-    { url: svgC },
-    { url: svgD },
+    { url: svgE , href:'https://twitter.com/'},
+    { url: svgA , href:'https://discord.com/' },
+    { url: svgB , href:'https://telegram.org/' },
+    { url: svgC , href:'https://www.facebook.com/' },
+    { url: svgD , href:'https://www.linkedin.com/' },
   ];
 
   // Footer links data
@@ -45,15 +46,22 @@ export const LaunchpadListSection = (): JSX.Element => {
         </div>
 
         <div className="flex flex-wrap gap-[18px]">
-          {socialIcons.map((icon, index) => (
-            <img
-            key={`social-icon-${index}`}
-            src={icon.url}
-            alt="social icon"
-            className="w-[33.83px] h-[33.83px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
-          />
-          ))}
-        </div>
+  {socialIcons.map((icon, index) => (
+    <a
+      key={`social-icon-${index}`}
+      href={icon.href}                   // ✅ Use the real external link
+      target="_blank"                    // ✅ Opens in a new tab
+      rel="noopener noreferrer"          // ✅ Security best practice
+    >
+      <img
+        src={icon.url}
+        alt="social icon"
+        className="w-[33.83px] h-[33.83px] max-[680px]:w-[20px] max-[680px]:h-[20px]"
+      />
+    </a>
+  ))}
+</div>
+
       </div>
 
       <div className="flex gap-[94px] max-[1000px]:gap-10  max-[680px]:w-[100%] max-[680px]:justify-between max-[380px]:flex-wrap">
