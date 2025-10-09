@@ -32,10 +32,7 @@ export const Desktop = (): JSX.Element => {
       className: "star-1 min-[1750px]:ml-[450px] min-[1610px]:ml-[250px] min-[1500px]:ml-[100px]",
       src: star,
     },
-    {
-      className: "star-2 min-[1750px]:ml-[300px] min-[1610px]:ml-[150px] max-[1500px]:ml-0",
-      src: star,
-    },
+
     {
       className: "star-3 min-[1500px]:ml-[40px]",
       src: star,
@@ -69,35 +66,35 @@ export const Desktop = (): JSX.Element => {
   const decorativeBorders = [
     {
       className:
-        "absolute w-[390px] h-[164px] top-[111px] left-11 rounded-[195.24px/82.15px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[164px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[111px] left-11 rounded-[195.24px/82.15px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[164px] top-[119px] left-6 rounded-[195.24px/82.15px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[164px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[119px] left-6 rounded-[195.24px/82.15px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[164px] top-[135px] left-1 rounded-[195.24px/82.15px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[164px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[135px] left-1 rounded-[195.24px/82.15px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[137px] top-[115px] left-px rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[137px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[115px] left-px rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[137px] top-[141px] -left-1.5 rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[137px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[141px] -left-1.5 rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[137px] top-[303px] left-[1084px] rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[137px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[303px] left-[1084px] rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[137px] top-[332px] left-[1077px] rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[137px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[332px] left-[1077px] rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
     {
       className:
-        "absolute w-[390px] h-[137px] top-[266px] left-[1091px] rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
+        "absolute w-[390px] h-[137px] max-[1200px]:w-[300px] max-[1200px]:h-[100px] top-[266px] left-[1091px] rounded-[195.24px/68.33px] border-[3.47px] border-solid border-[#544bbf4c] rotate-[42.98deg]",
     },
   ];
 
@@ -227,8 +224,8 @@ export const Desktop = (): JSX.Element => {
           <SecurityTrustSection />
 
          
-          <div className="absolute top-[280px] right-[-1660px] max-[1750px]:right-[-1500px] max-[1600px]:right-[-1400px] max-[1500px]:right-[-1293px]  w-full max-[1350px]:right-[-1100px] max-[1200px]:right-[-900px] max-[1000px]:top-[600px] max-[1000px]:right-[-700px] max-[680px]:right-[-400px]">
-              <div className="absolute w-[438px] h-[410px] top-[822px] left-0">
+          <div className="absolute top-[280px] right-[-1660px] max-[1750px]:right-[-1500px] max-[1600px]:right-[-1400px] max-[1500px]:right-[-1293px]  w-full max-[1350px]:right-[-1150px] max-[1200px]:right-[-900px] max-[1200px]:top-[900px] max-[1000px]:right-[-800px] max-[900px]:right-[-700px] max-[680px]:right-[-400px]">
+              <div className="absolute w-[438px] h-[410px] max-[1200px]:w-[350px] max-[1200px]:h-[300px] top-[822px] left-0">
                 {decorativeBorders.slice(0, 3).map((border, index) => (
                   <div key={`border-${index}`} className={border.className} />
                 ))}
