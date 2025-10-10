@@ -6,18 +6,18 @@ import freepikA from "../../../../../Public/freepik--create-a-new-version-of-the
 export const FooterSection = (): JSX.Element => {
   return (
     <Card className="flex items-center gap-20 p-14 bg-[#a097ff26] rounded-[30px] max-[767px]:rounded-[20px] border border-solid border-[#544bbf80] mx-[180px] my-[100px] max-[1300px]:mx-[100px] max-[1100px]:mx-[50px] max-[680px]:mx-[25px] max-[680px]:my-[32px] max-[1000px]:my-[50px] max-[1100px]:gap-10 max-[1100px]:p-8 max-[1000px]:flex-col-reverse max-[1000px]:items-center max-[480px]:p-4 max-[480px]:gap-4">
-      <CardContent className="flex flex-col items-start gap-10 p-0 max-[1000px]:items-center">
+      <CardContent className="flex flex-col w-[650px] max-[1550px]:w-auto items-start gap-10 p-0 max-[1000px]:items-center">
         <h2 className="font-bold text-[#afabbf] text-[40px] font-['Poppins',Helvetica] leading-normal whitespace-nowrap max-[1100px]:whitespace-normal max-[1100px]:w-[500px] max-[680px]:text-2xl  max-[1000px]:text-center   max-[1000px]:w-[100%]   ">
           Want to Launch your Project
           <br />
           on Launchpad.
         </h2>
 
-        <div className="flex flex-wrap items-center gap-[9px]">
+        <div className="flex flex-wrap items-center w-[580px] max-[1550px]:w-full gap-[9px]">
           <div className="relative flex-grow">
             <Input
               placeholder="Email Address"
-              className=" max-w-[380px] px-8 py-5 h-auto bg-[#060232b2] rounded-[15px] border border-solid border-[#544bbf80] text-[#9b9b9b] font-['Poppins',Helvetica] font-semibold text-base max-[480px]:px-4 max-[480px]:py-3 max-[480px]:text-sm"
+              className="min-[1550px]:max-w-[450px] max-w-[380px] px-8 py-5 h-auto bg-[#060232b2] rounded-[15px] border border-solid border-[#544bbf80] text-[#9b9b9b] font-['Poppins',Helvetica] font-semibold text-base max-[480px]:px-4 max-[480px]:py-3 max-[480px]:text-sm"
             />
           </div>
 

@@ -24,9 +24,9 @@ export const SecurityTrustSection = (): JSX.Element => {
         Launchpad List
       </h2>
 
-      <div className="flex flex-col items-start gap-[50px] w-full max-[1100px]:gap-[40px] max-[1000px]:gap-[20px] max-[680px]:gap-[10px]">
+      <div className="flex flex-col items-start gap-[50px] max-[1500px]:w-full w-full  max-[1750px]:max-w-[1250px] max-[1100px]:gap-[40px] max-[1000px]:gap-[20px] max-[680px]:gap-[10px]">
         {/* First row of cards */}
-        <div className="flex flex-wrap items-center justify-center gap-[50px] w-full max-[1100px]:gap-[40px] max-[680px]:gap-[20px]">
+        <div className="flex flex-wrap items-center justify-center gap-[50px] w-full  max-[1100px]:gap-[40px] max-[680px]:gap-[20px]">
           {launchpadCards.slice(0, 6).map((card) => (
             <LaunchpadCard
               key={card.id}
@@ -42,7 +42,7 @@ export const SecurityTrustSection = (): JSX.Element => {
 // LaunchpadCard component for reusability
 const LaunchpadCard = ({ groupImageSuffix }: { groupImageSuffix: string }) => {
   return (
-    <Card className="flex flex-col min-[1500px]:w-[450px]  w-[325px] items-start gap-[15px] px-4 py-[15px] bg-[#a098ff]/10 rounded-[20px] border-none">
+    <Card className="flex flex-col min-[1750px]:w-[450px] min-[1500px]:w-[380px]  w-[325px] items-start gap-[15px] px-4 py-[15px] bg-[#a098ff]/10 rounded-[20px] border-none">
       <CardContent className="p-0 w-full">
         <div className="flex w-full items-center justify-between min-[1500px]:mb-[30px] mb-[15px]">
               <img src={icPinksale} className="w-16 h-16 max-[1000px]:w-12 max-[1000px]:h-12" />

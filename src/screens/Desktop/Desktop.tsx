@@ -54,7 +54,7 @@ export const Desktop = (): JSX.Element => {
     },
     {
       className:
-        "absolute w-[5px] h-[7px] top-[605px] left-[278px] bg-[#3bcbff] rounded-[2.5px/3.5px]",
+        "absolute w-[5px] h-[7px] top-[530px] left-[350px] max-[1250px]:top-[500px] max-[1100px]:top-[440px] max-[1100px]:left-[300px] bg-[#3bcbff] rounded-[2.5px/3.5px]",
     },
     {
       className:
